@@ -16,10 +16,13 @@ Gambar diatas menunjukkan bahwa git sudah terinstall dengan versi 2.20.1.windows
 
 ### Langkah 02 Konfigurasi GIT
 ![Konfigurasi](./img/config.PNG)
+Mengatur konfigurasi nama user menjadi "Abdul R. Wahid"
+Mengatur konfigurasi email user menjadi "wahid.dulrohman@gmail.com"
 
 ### Langkah 03 Mengelola Repo
 #### Membuat Repo
 ![Membuat](./img/buat-repo.PNG)
+Membuat repositori
 
 #### Clone Repo
 ![Clone](./img/clone-repo.PNG)
