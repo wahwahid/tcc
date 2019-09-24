@@ -30,3 +30,20 @@ Kembali ke brach master dengan perintan `git checkout` tanpa menggunakan `-b` ya
 ```
 git checkout master
 ```
+
+#### Perbedaan branch via github
+![BedaBranchA](./img/04a.png)
+Kita dapat melihat di github branch master telah memiliki folder `minggu-01` dan `minggu-02`. Namun folder `minggu-01` terakhir diupdate perubahan 12 hari yang lalu.
+![BedaBranchB](./img/04b.png)
+Ketika pindah ke branch `edit-minggu-01` maka kita tidak melihat folder `minggu-02` karena memang saat branch ini dibuat berdasarkan branch master, kondisi saat itu belum ada folder `minggu-02`. Namun, disini folder `minggu-01` terakhir ada update perubahan adalah 31 menit yang lalu.
+
+#### Pull Request
+Kita dapat menggabungkan perubahan dari 2 branch yang berbeda menggunakan `merge` yang bisa diperoleh secara remote dari fitur `pull request di github`
+![OpenPullRequest](./img/05.png)
+Membuat pull request branch `edit-minggu-01` ke `master`
+![StatPullRequest](./img/06.png)
+Ditampilkan informasi bahwa branch yang dilakukan pull request tidak memiliki konflik dengan vranch master, karena itu aman untuk dilakukan merge.
+![MergePullRequest](./img/07.png)
+Konfirmasi untuk melakukan merge branch pada pull request.
+![ResultPullRequest](./img/08.png)
+Dapat dilihat hasil pull request bahwa di branch `master` untuk folder minggu-01 telah berubah menjadi versi update / commit terakhir yang sama dengan branch `edit-minggu-01`
