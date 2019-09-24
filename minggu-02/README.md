@@ -60,3 +60,28 @@ git pull origin master
 Dimana `origin` adalah server default, sedangkan `master` adalah branch default yang akan di sinkronisasi.
 Git secara otomatis akan melakukan merge perubahan jika tidak ada konflik yang terjadi, yang perlu kita lakukan hanya menentukan komentar untuk auto-merge tersebut.
 ![Sinkron](./img/09s2.png)
+
+#### Membatalkan Perubahan
+Melakukan suatu perubahan direkomendasikan di suatu branch baru. Jadi, jika perubahan yang dilakukan kacau, kita dapat membatalkannya beserta menghapus branchnya tampa mempengaruhi branch utama.
+
+![Batal](./img/10b1.png)
+Perubahan di branch `edit-kacau`
+
+![Batal](./img/10b2.png)
+Pindah ke branch master
+
+![Batal](./img/10b3.png)
+Menghapus branch `edit-kacau`
+
+![Batal](./img/10b4.png)
+Melhat daftar branch dengan perintah :
+```
+git branch
+```
+
+![Batal](./img/10b5.png)
+Membatalkan perubahan dengan perintah :
+```
+git reset --hard
+```
+Maka kondisi file akan disesuaikan seperti kondisi commit terakhir pada branch tersebut dengan bersih.
