@@ -47,3 +47,16 @@ Ditampilkan informasi bahwa branch yang dilakukan pull request tidak memiliki ko
 Konfirmasi untuk melakukan merge branch pada pull request.
 ![ResultPullRequest](./img/08.png)
 Dapat dilihat hasil pull request bahwa di branch `master` untuk folder minggu-01 telah berubah menjadi versi update / commit terakhir yang sama dengan branch `edit-minggu-01`
+
+#### Sinkronisasi
+Mengambil perubahan yang ada di remote server untuk diaplikasikan ke lokal. Perubahan dapat terjadi jika ada pull request maupun pengelolaan dari komputer lokal lain. Ke-tidak-sinkron-an perubahan dapat menyebabkan hal seperti gambar dibawah :
+![Sinkron](./img/09s1.png)
+Gagal melakukan push karena di remote server telah ada perubahan yang berbeda dengan perubahan di lokal.
+
+Untuk sinkronisasi perintah yang digunakan adalah :
+```
+git pull origin master
+```
+Dimana `origin` adalah server default, sedangkan `master` adalah branch default yang akan di sinkronisasi.
+Git secara otomatis akan melakukan merge perubahan jika tidak ada konflik yang terjadi, yang perlu kita lakukan hanya menentukan komentar untuk auto-merge tersebut.
+![Sinkron](./img/09s2.png)
