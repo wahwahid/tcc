@@ -13,3 +13,6 @@ Contoh images docker
 ## Membuat Tabel
 ## UI Data
 ## Query Data
+
+## Referensi
+https://vladmihalcea.com/how-to-get-started-with-cockroachdb/
