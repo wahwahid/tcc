@@ -5,3 +5,10 @@
     "nama": "Abdul R. Wahid"
 }
 ```
+
+Indeks
+ * [minggu-01](./minggu-01)
+ * [minggu-02](./minggu-02)
+ * [minggu-03](./minggu-03)
+ * [minggu-04](./minggu-04)
+ * [minggu-05](./minggu-05)
