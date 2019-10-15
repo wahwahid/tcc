@@ -1,4 +1,4 @@
-# Deploying First Container
+# Deploying First Container (Redis)
 
 ## Mencari docker image dengan nama "redis"
 ```
