@@ -65,3 +65,17 @@ docker run ubuntu ps
 docker run -it ubuntu bash
 ```
 ![DeployingFirstContainer](./img/A11.png)
+
+# NGINX
+## Membuat dockerfile
+```
+FROM nginx:alpine
+COPY . /usr/share/nginx/html
+```
+Mendefinisikan basis docker image serta menyalin seluruh file yang ada di direktori kerja ke suatu tempat didalam container (/usr/share/nginx/html).
+
+## Membuild dockerimage
+```
+docker build -t webserver-image:v1 .
+```
+Membuild dockerimage dengan nama "webserver-image" serta versi "v1"
