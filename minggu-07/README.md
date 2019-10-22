@@ -32,3 +32,21 @@ now
 
 ## Hasil Deploy
 ![](./img/07.png)
+
+## Modifikasi halaman next-project
+```
+~/pages/index.js
+
+...
+<h1 className='title'>wahwahid is greeting : Welcome to Next.js!</h1>
+...
+```
+
+## Re-deploy
+```
+now
+```
+![](./img/08.png)
+
+## Hasil Re-deploy
+![](./img/09.png)
