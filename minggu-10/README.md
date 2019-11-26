@@ -40,3 +40,25 @@ Pull Request dikirim dan teranalisa secara otomatis menunjukkan ada / tidak ada 
 Pull Request diterima dan telah di merge ke branch master
 
 ![Skrinsut](./img/step10.png)
+
+## Step 08
+Membuat perubahan lain dan ternyata conflict
+
+![Skrinsut](./img/step11.png)
+
+## Step 09
+Me-resolve conflict langsung di GitHub
+
+![Skrinsut](./img/step12.png)
+
+![Skrinsut](./img/step13.png)
+
+## Step 10
+Pull Request sudah tidak conflict
+
+![Skrinsut](./img/step14.png)
+
+## Step 11
+Pull request kedua telah diterima dan dimerge
+
+![Skrinsut](./img/step15.png)
