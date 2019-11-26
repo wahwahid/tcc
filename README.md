@@ -16,3 +16,4 @@ Indeks
  * [minggu-07](./minggu-07)
  * [minggu-08](./minggu-08)
  * [minggu-09](./minggu-09)
+ * [minggu-10](./minggu-10)
