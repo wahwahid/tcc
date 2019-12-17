@@ -18,3 +18,6 @@ Indeks
  * [minggu-09](./minggu-09)
  * [minggu-10](./minggu-10)
  * [minggu-11](./minggu-11)
+ * [minggu-12](./minggu-12)
+ * [minggu-13](./minggu-13)
+
