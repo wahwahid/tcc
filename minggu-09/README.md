@@ -1,4 +1,4 @@
-# Minggu 09 : Docker dengan python+flask
+# Minggu 09 : Melanjutkan Docker minimal dengan python+flask
 
-## Referensi :
- * https://medium.com/@mtngt/docker-flask-a-simple-tutorial-bbcb2f4110b5
+# Docker Aplikasi TicTacTwo menggunakan NodeJS+React
+[https://github.com/wahwahid/tcc-uts](https://github.com/wahwahid/tcc-uts)
