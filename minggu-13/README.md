@@ -1,8 +1,8 @@
 # Minggu 13 : Docker Swarm
 
 ## Legenda
-Node Server : Docker pada komputer/node yang akan digunakan sebagai manager docker swarm
-Node Client : Docker pada komputer/node yang akan digunakan sebagai member docker swarm
+- Node Server : Docker pada komputer/node yang akan digunakan sebagai manager docker swarm
+- Node Client : Docker pada komputer/node yang akan digunakan sebagai member docker swarm
 
 ## Node Server : Init / memulai docker swarm 
 Perintah ini akan membuat docker pada komputer/node menjadi docker swarm manager
